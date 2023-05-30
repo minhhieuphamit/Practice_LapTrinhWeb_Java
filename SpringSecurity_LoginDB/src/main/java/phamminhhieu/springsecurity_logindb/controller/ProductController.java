@@ -8,7 +8,7 @@ import phamminhhieu.springsecurity_logindb.model.Product;
 import phamminhhieu.springsecurity_logindb.service.ProductService;
 
 @Controller
-@RequestMapping(value = {"/product","/"})
+@RequestMapping(value = {"/product", "/"})
 public class ProductController {
     @Autowired
     private ProductService productService;
